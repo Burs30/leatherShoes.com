@@ -1,0 +1,16 @@
+  212  git config --global --list
+  213  nano ~/. gitconfig
+  214  git config --global --unset init.default git config --global --unset init.default
+  215  nano ~/. gitconfig
+  216  cat ~/.gitconfig
+  217  nano ~/.gitconfig
+  218  cat ~/.gitconfig
+  219  git config --global --list
+  220  cd Users
+  221  cd users
+  222  cd Macintosh Hd
+  223  cd MacintoshHd
+  224  cd Documents
+  225  cd Projects/leatherShoes
+  226  git init
+  227  git status

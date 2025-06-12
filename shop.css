@@ -1,0 +1,143 @@
+.header {
+  background-color: rgba(231, 231, 231, 0.648);
+  font-family: "Courier New", Courier, monospace;
+}
+
+.header .nav .nav-link {
+  color: black;
+}
+
+.header .social {
+  padding-left: 50px;
+}
+
+.header .dropdown {
+  padding-left: 20px;
+}
+.center-text h2 {
+  color: #111;
+  font-size: 28px;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.header-one {
+  background-color: rgba(255, 255, 255, 0.648);
+}
+.header-one .nav .nav-link {
+  color: black;
+  transition: background-color 0.5s ease;
+}
+
+.header-one .nav .nav-link:hover {
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+.header-one {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.header-one .account .login {
+  text-decoration: none;
+  color: black;
+}
+
+.header-one .account .login:hover {
+  color: white;
+}
+
+.header-one .account .signup {
+  text-decoration: none;
+  color: white;
+}
+.center-text span {
+  color: #ee1c47;
+}
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+  gap: 2rem;
+}
+.row {
+  position: relative;
+  transition: all 0.4s;
+}
+.row img {
+  width: 300px;
+  height: 400px;
+  transition: all 0.4s;
+}
+.row img:hover {
+  transform: scale(0.9);
+}
+.product-text h5 {
+  position: absolute;
+  top: 13px;
+  left: 13px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: #27b737;
+  padding: 3px 10px;
+  border-radius: 2px;
+}
+.heart-icon {
+  position: absolute;
+  right: 0;
+  font-size: 20px;
+}
+.heart-icon:hover {
+  color: #ee1c47;
+}
+.ratting i {
+  color: #ff8c00;
+  font-size: 18px;
+}
+.price h4 {
+  color: #111;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+.price p {
+  color: #151515;
+  font-size: 14px;
+  font-weight: 600;
+}
+.client-reviews {
+  background-color: #f3f4f6;
+}
+.reviews {
+  text-align: center;
+}
+.reviews h3 {
+  color: #111;
+  font-size: 25px;
+  text-transform: capitalize;
+  text-align: center;
+  font-weight: 700;
+}
+.reviews img {
+  width: 100px;
+  height: auto;
+  border-radius: 50px;
+  margin: 10px 0;
+}
+.reviews p {
+  color: #707070;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  margin-bottom: 10px;
+}
+.reviews h2 {
+  font-size: 22px;
+  color: #000;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin-bottom: 2px;
+}
